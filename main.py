@@ -153,9 +153,7 @@ def update_semantic_model(group_id, dataset_id, access_token):
 def main():
     # Variáveis de ambiente
     app_id = os.getenv("APP_ID")
-    client_secret = os.getenv(
-        "CLIENT_SECRET"
-    )  # Possível erro aqui: CLIENTE_SECRET pode estar errado
+    client_secret = os.getenv("CLIENT_SECRET")
     tenant_id = os.getenv("TENANT_ID")
     groupId = "d975d1c2-9dcf-401a-b794-8f158c51a4e1"
     datasetId = "a1fc762a-4d1b-486b-b147-fa7db3d8d1bf"
