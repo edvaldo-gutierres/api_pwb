@@ -155,8 +155,8 @@ def main():
     app_id = os.getenv("APP_ID")
     client_secret = os.getenv("CLIENT_SECRET")
     tenant_id = os.getenv("TENANT_ID")
-    groupId = "d975d1c2-9dcf-401a-b794-8f158c51a4e1"
-    datasetId = "a1fc762a-4d1b-486b-b147-fa7db3d8d1bf"
+    groupId = "d975d1c2-9dcf-401a-b794-8f158c51a4e1"  # Workspace ID
+    datasetId = "a1fc762a-4d1b-486b-b147-fa7db3d8d1bf"  # Dataset ID
 
     # Debug: Verificar se as variáveis foram carregadas
     # print(f"APP_ID: {app_id}")
